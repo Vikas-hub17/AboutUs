@@ -64,6 +64,20 @@ const TextWrapper = styled.div`
   }
 `;
 
+const Title = styled.h2`
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+
+  span {
+    color: #00D9FF; /* Teal highlight */
+  }
+
+  @media (min-width: 768px) {
+    font-size: 2.2rem;
+  }
+`;
+
 const Description = styled.p`
   font-size: 1rem;
   line-height: 1.6;
@@ -72,6 +86,23 @@ const Description = styled.p`
 
   @media (min-width: 768px) {
     font-size: 1.1rem;
+  }
+`;
+
+const Button = styled.a`
+  display: inline-block;
+  padding: 8px 5px;
+  border: 1.5px solid #00D9FF;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #00D9FF;
+    color: #00040F;
   }
 `;
 
@@ -85,23 +116,15 @@ const HowItWorks = () => {
             <img src={shieldImage1} alt="Polymorphic Code Engine" />
           </ImageWrapper>
           <TextWrapper>
+            <Title>
+              Our Story
+            </Title>
             <Description>
-            MutaEngine is a team of passionate cybersecurity experts, software engineers, and innovators united by a common vision: to create a world where software developers can innovate without fear of their work being compromised. Our founders, driven by decades of combined experience in cybersecurity, software development, and artificial intelligence, recognized the growing threats in the digital landscape and set out to build a company that could offer robust, future-proof security solutions. We are deeply committed to staying ahead of these threats, constantly evolving our approach to ensure that our clients' software remains secure against the most sophisticated attacks.
-            </Description>
-            
-          </TextWrapper>
-        </ContentBlock>
+            MutaEngine was born out of a simple realization: traditional methods of software protection were no longer sufficient in an age where hackers are constantly finding new ways to bypass security measures. Our founders set out to create a solution that could adapt and evolve in real-time, providing a level of protection that static methods simply couldn’t match.
 
-        {/* Second Section: Image on the Left */}
-        <ContentBlock reverse={true}>
-          <ImageWrapper>
-            <img src={shieldImage2} alt="How it works" />
-          </ImageWrapper>
-          <TextWrapper reverse={true}>
-            <Description>
-            At MutaEngine, we believe that every developer, from startups to global enterprises, deserves the freedom to innovate without the risk of piracy or unauthorized modifications. Our team's diverse expertise allows us to develop cutting-edge technologies, like our Polymorphic Code Engine, which continuously adapts to defend against evolving threats. By partnering closely with our clients, we tailor our solutions to meet their unique security needs, providing peace of mind so they can focus on what they do best—creating transformative software.
+What started as a small project has grown into a leading solution trusted by developers and companies around the world. Today, MutaEngine continues to innovate, constantly improving our technology to meet the challenges of tomorrow.
             </Description>
-           
+            <Button href="#">Learn More</Button>
           </TextWrapper>
         </ContentBlock>
       </ContentWrapper>

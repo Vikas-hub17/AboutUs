@@ -8,6 +8,7 @@ import ValuesSection from '../src/components/Values';
 import WhyChooseUsSection from '../src/components/WhyChooseUs';
 import ContactSection from '../src/components/Contact';
 import Footer from './components/Footer';
+import Story from './components/Story';
 import styled from 'styled-components';
 
 const PageWrapper = styled.div`
@@ -25,6 +26,7 @@ function App() {
       <WhatWeDoSection />
       <ValuesSection />
       <WhyChooseUsSection />
+      <Story />
       <ContactSection />
       <Footer />
     </PageWrapper>

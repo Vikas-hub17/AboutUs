@@ -1,12 +1,12 @@
 // App.js
 import React from 'react';
-import Header from './components/Header';
-import MissionSection from './components/Mission';
-import WhoWeAreSection from './components/WhoWeAreSection';
-import WhatWeDoSection from './components/WhatWeDoSection';
-import ValuesSection from './components/ValuesSection';
-import WhyChooseUsSection from './components/WhyChooseUsSection';
-import ContactSection from './components/ContactSection';
+import Header from '../src/components/Header';
+import MissionSection from '../src/components/Mission';
+import WhoWeAreSection from '../src/components/WhoWeAre';
+import WhatWeDoSection from '../src/components/WhatWeDo';
+import ValuesSection from '../src/components/Values';
+import WhyChooseUsSection from '../src/components/WhyChooseUs';
+import ContactSection from '../src/components/Contact';
 import Footer from './components/Footer';
 import styled from 'styled-components';
 

@@ -8,7 +8,7 @@ import Grid1 from '../assests/Grid1.jpg';
 // Wrapper for the entire section
 const WhatWeDoWrapper = styled.section`
   padding: 50px;
-  background-color: #0c0f16; /* Dark background */
+  background-color: #00040F; /* Dark background */
   color: #fff; /* Text color */
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -27,7 +27,7 @@ const Heading = styled.h2`
 // Subheading style for description
 const SubHeading = styled.p`
   font-size: 1.2em;
-  color: #b5b5b5;
+  color: white;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,7 @@ const ContentBox = styled.div`
 const BoxGridBackground = styled.div`
   background-image: url(${bg});
   background-size: fill;
-  opacity: 0.4;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
@@ -73,16 +73,15 @@ const BoxGridBackground = styled.div`
 const Text = styled.p`
   font-size: 1.2em;
   line-height: 1.6;
-  color: #b5b5b5;
+  color: white;
   margin-bottom: 20px;
   text-align: left;
 `;
 
 // Image inside the content box
 const Image = styled.img`
-  width: 80%;
+  width: 100%;
   height: auto;
-  box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.6); /* Neon-like shadow */
   border-radius: 10px;
   margin-top: 20px; /* Ensure space between text and image */
 `;
@@ -104,7 +103,9 @@ const WhatWeDoSection = () => (
           to decompile or reverse-engineer software, providing an impenetrable barrier against unauthorized 
           access and piracy.
         </Text>
+  
         <Image src={Grid} alt="Polymorphic Code Engine" />
+       
         <BoxGridBackground />
       </ContentBox>
 
@@ -114,7 +115,9 @@ const WhatWeDoSection = () => (
           building traditional applications or pioneering new blockchain-based projects in the Web3 space. 
           MutaEngine offers a range of tools and services to ensure your software is secure from every angle.
         </Text>
+ 
         <Image src={Grid1} alt="Web3 Integration" />
+     
         <BoxGridBackground />
       </ContentBox>
     </ContentRow>

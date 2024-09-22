@@ -49,7 +49,7 @@ const LearnMoreButton = styled.a`
   font-size: 1em;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: all 0.3s ease;
 
   &:hover {

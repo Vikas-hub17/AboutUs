@@ -29,8 +29,8 @@ const TextBlock = styled.div`
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+  justify-content: left;
+  gap: 30px;
 
   h1 {
     font-size: 2.5rem;
@@ -60,8 +60,8 @@ const FeatureList = styled.div`
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 30px;
+  justify-content: right;
+  gap: 40px;
 `;
 
 const FeatureItem = styled.div`
@@ -90,74 +90,19 @@ const FeatureIcon = styled.div`
 `;
 
 const Button = styled.a`
- 
-  padding: 10px 30px;
+
   background-color: #00D9FF;
   color: #00040F;
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  
-  
-  &:hover {
-    background-color: #00A7D1;
-  }
-`;
-
-const CTAButton = styled.a`
-  
- margin-top: -40px;
-  padding: 10px 30px;
-  background-color: #00D9FF;
-  color: #00040F;
-  border-radius: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  
-  
-  &:hover {
-    background-color: #00A7D1;
-  }
-`;
-
-const CTASection = styled.div`
-  
-  background: linear-gradient(135deg, #383838 0%, #1F1F1F 100%);
-  border-radius: 20px;
+  width: 150px;
+  height: 50px;
   text-align: center;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Shadow for elevation effect */
-
-  h2 {
-    color: #FFFFFF;
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 50px;
-    padding-top:50px;
-
-    span {
-      color: #00D9FF; /* Highlighting the word "Secure" */
-    }
-
-    @media (min-width: 768px) {
-      font-size: 2.8rem;
-    }
-  }
-
-  p {
-    color: #B0B3B8;
-    font-size: 1.1rem;
-    text-align: left;
-    padding-left: 50px;
-    padding-top:20px;
-  }
-
-  @media (min-width: 768px) {
-    max-width: 900px;
-    margin: 0 auto;
+  align-content: center;
+  &:hover {
+    background-color: #00A7D1;
   }
 `;
 

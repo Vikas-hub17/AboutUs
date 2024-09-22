@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import shieldImage1 from '../assests/Img.png'; // Placeholder for "Polymorphic Code" image
-import shieldImage2 from '../assests/Img.png'; // Placeholder for "How It Works" image
-
+import shieldImage1 from '../assests/Img2.png'; // Placeholder for "Polymorphic Code" image
 
 const Section = styled.section`
   background-color: #00040F;
@@ -96,7 +94,9 @@ const Button = styled.a`
   border-radius: 10px;
   text-align: center;
   width: 100px;
+  height: 50px;
   color: white;
+  align-content: center;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 

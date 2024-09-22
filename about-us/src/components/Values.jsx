@@ -168,11 +168,10 @@ const Features = () => {
         {/* Left text block */}
         <TextBlock>
           <h1>
-            You Innovate, <span>We Secure</span>.
+            Our Values
           </h1>
           <p>
-            With MutaEngine, you can focus on creating cutting-edge software while we ensure it stays protected from threats. Our advanced technology keeps your intellectual property safe, allowing you to concentrate on what you do best.
-          </p>
+          We are driven by innovation, integrity, excellence, and a customer-centric approach to deliver unparalleled software security solutions.          </p>
           <Button href="#">Get Started</Button>
         </TextBlock>
 
@@ -183,9 +182,9 @@ const Features = () => {
               <FaStar />
             </FeatureIcon>
             <div>
-              <h3>Polymorphic Code</h3>
+              <h3>Innovation</h3>
               <p>
-                MutaEngine constantly mutates your software’s code in real-time, making it nearly impossible for hackers to decompile or reverse-engineer.
+              We are committed to pushing the boundaries of what’s possible in software security. Our team constantly explores new technologies and methodologies to keep our solutions at the forefront of the industry.
               </p>
             </div>
           </FeatureItem>
@@ -195,9 +194,9 @@ const Features = () => {
               <FaShieldAlt />
             </FeatureIcon>
             <div>
-              <h3>360° Security</h3>
+              <h3>Integrity</h3>
               <p>
-                Our multi-layered defense mechanisms ensure that every part of your software is protected, from code to data to user transactions.
+              Trust is at the core of everything we do. We are dedicated to providing transparent, reliable, and effective security solutions that our clients can depend on.
               </p>
             </div>
           </FeatureItem>
@@ -207,12 +206,24 @@ const Features = () => {
               <FaRocket />
             </FeatureIcon>
             <div>
-              <h3>Web3 Integration</h3>
+              <h3>Excellence</h3>
               <p>
-                Fully compatible with decentralized applications, MutaEngine provides robust security for your blockchain projects.
+              We strive for excellence in every aspect of our work, from the quality of our products to the level of service we provide to our clients.
               </p>
             </div>
           </FeatureItem>
+
+          <FeatureItem>
+            <FeatureIcon>
+              <FaStar />
+            </FeatureIcon>
+            <div>
+              <h3>Customer-Centric</h3>
+              <p>
+              Our clients are our top priority. We work closely with them to understand their unique needs and tailor our solutions to meet those needs.              </p>
+            </div>
+          </FeatureItem>
+
         </FeatureList>
       </Wrapper>
     </Section>

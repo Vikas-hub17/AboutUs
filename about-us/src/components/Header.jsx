@@ -87,7 +87,7 @@ const ButtonGroup = styled.div`
 `;
 
 const Button = styled.button`
-  border: 2px solid #00D4FF;
+  border: 1px solid #00D4FF;
   padding: 10px 25px;
   border-radius: 15px;
   background-color: ${(props) => (props.primary ? '#00D4FF' : 'transparent')};

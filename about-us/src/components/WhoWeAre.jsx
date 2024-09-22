@@ -14,6 +14,16 @@ const Section = styled.section`
   }
 `;
 
+const Title = styled.div`
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: -40px;
+  color: #ffffff;
+  letter-spacing: 2px;
+`;
+
 const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -27,6 +37,7 @@ const ContentBlock = styled.div`
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 60px;
 
   @media (min-width: 768px) {
     flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')}; /* Image on the right for reverse=false, left for reverse=true */
@@ -78,6 +89,7 @@ const Description = styled.p`
 const HowItWorks = () => {
   return (
     <Section>
+      <Title>Who We Are</Title>
       <ContentWrapper>
         {/* First Section: Image on the Right */}
         <ContentBlock reverse={false}>

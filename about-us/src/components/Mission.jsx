@@ -12,9 +12,8 @@ const MissionWrapper = styled.section`
   text-align: left;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: left;
+  height: 80vh;
 `;
 
 const ContentWrapper = styled.div`
@@ -28,12 +27,13 @@ const MissionHeading = styled.h2`
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
+  
 `;
 
 const MissionText = styled.p`
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #e0e0e0;
 `;
 
@@ -45,8 +45,8 @@ const LearnMoreButton = styled.a`
   background-color: transparent;
   border: 2px solid #00ffca;
   color: white;
-  padding: 15px 30px;
-  font-size: 1.2em;
+  padding: 15px 20px;
+  font-size: 1em;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
